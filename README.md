@@ -62,7 +62,7 @@ The info command provides information regarding a module or platform,
 Before beginning, set up the Metasploit database by starting the PostgreSQL server and initialize msfconsole database as follows:
 systemctl start postgresql
 msfdb init
-##MYSQL ENUMERATION
+## MYSQL ENUMERATION
 Find the IP address of the Metasploitable machine first. Then, use the db_nmap command in msfconsole with Nmap flags to scan the MySQL database at 3306 port.
 db_nmap -sV -sC -p 3306 <metasploitable_ip_address>
 ![8output](https://github.com/viswapriyaG/Metasploit-for-reconnaissance/assets/131427787/b6691614-ea30-45ee-86c6-6a35baa7d1b1)
